@@ -20,7 +20,7 @@ body {
 }
 
 .navbar img {
-    height:30px;
+    height: 30px;
     object-fit: cover;
 }
 
@@ -31,16 +31,19 @@ body {
 
 .nav-link {
     background-color: rgba(255, 255, 255, 0);
+}
+
+.nav-link:hover {
+    background-color: rgba(169, 167, 20, 0.54);
+}
+
+.nav-link:hover,
+.nav-link {
     color: white !important;
     border-radius: 50px;
     text-shadow: 1px 1px 2px #aaa;
 }
 
-.nav-link:hover {
-    background-color: rgba(169, 167, 20, 0.54);
-    color: white !important;
-    border-radius: 50px;
-}
 
 
 .card-img-top {
@@ -49,7 +52,7 @@ body {
 }
 
 #caruselHeroSection>div>div>img {
-    max-height: 500px;
+    max-height: 90vh;
     object-fit: cover;
 }
 
