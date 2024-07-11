@@ -1,6 +1,7 @@
 ![viajes-chile](https://raw.githubusercontent.com/tripleG-Master/viajes-chile/main/favicon.ico)
 
-# PRUEBA EVALUADA VIAJES-CHILE
+<h1 align="center"> PRUEBA EVALUADA VIAJES-CHILE </h>
+<hr>
 
 ### Mi proyecto utiliza las siguientes tecnologías:
 HTML, CSS, JAVASCRIPT y JQUERY. 
@@ -41,7 +42,9 @@ El primero es algo mas complejo.
 Primero previene el evento submit por defecto, luego captura la data agregada serialize(). Crea un variable componente donde estará el contenido a renderizar dentro del modal, para luego invocar el metodo forEach y recorrer los elementos dentro de componentes, con la finalidad de poder extraer cada uno de las propiedades de los objetos dentro y crear el div.d-block con el label y parrafo con los valores extraidos.
 Luego limpia el modal-body para realizar el append con la nueva informacion y mostrar el modal.
 
-
 El segundo elemento, el boton del modal modalContacto.
 La funcionalidad es básica pero muy poderosa. Este consta de un selector JQuery $(#modalContacto .btn") gatillado por el click al mismo, y preguntando por el id del boton, si este coincide con el id "btnConfirmar" envia una alerta indicando que se confirmó el envío de la información, todo esto para simular una real funcionalidad del codigo, para luego ocultar el modal con .modal("hide").
 
+<hr>
+
+Autor: Carlos Gabriel G. Gamboa, TripleG
