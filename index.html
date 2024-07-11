@@ -26,7 +26,9 @@
   <header>
     <nav class="navbar navbar-expand-sm fixed-top navbar-light">
       <div class="container">
-        <a class="navbar-brand text-white" href="#">Viajes Chile</a>
+        <a class="navbar-brand text-white" href="#">
+          <h1>Viajes Chile</h1>
+        </a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
           data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -81,9 +83,10 @@
 
     </section>
 
-    <section id="quienesSomosSection" class="text-center py-3">
+    <section id="quienesSomosSection" class="d-none d-lg-block text-center my-3 py-3">
+
       <h2 class="my-3">¿Quienes Somos?</h2>
-      <div class="d-block d-md-flex gap-3 justify-content-center justify-content-md-evenly my-2">
+      <div class="d-md-flex gap-3 justify-content-center justify-content-md-evenly my-2">
 
         <div class="col-10 col-md-3 mx-auto m-2 p-2 p-xs-0">
           <i class="fa-solid fa-plane d-flex justify-content-center bg-info p-2"></i>
@@ -119,11 +122,11 @@
 
     </section>
 
-    <section id="destacadosSection" class="py-3">
+    <section id="destacadosSection" class="my-3 py-3">
       <h2 class="text-center my-3">Destacados</h2>
-      <div class="d-block d-md-flex gap-3 justify-content-center my-2 px-lg-5">
+      <div class="d-block d-lg-flex gap-1 justify-content-center my-2 px-lg-5">
 
-        <div class="card bg-info my-3 my-md-0 mx-sm-3">
+        <div class="card bg-info my-3 mx-sm-3">
           <img class="card-img-top" src="./assets/img/card1.jpg" alt="Title" />
           <div class="card-body text-white">
             <h4 class="card-title">Lorem ipsum dolor</h4>
@@ -134,7 +137,7 @@
           </div>
         </div>
 
-        <div class="card bg-info my-3 my-md-0 mx-sm-3">
+        <div class="card bg-info my-3 mx-sm-3">
           <img class="card-img-top" src="./assets/img/card2.jpg" alt="Title" />
           <div class="card-body text-white">
             <h4 class="card-title">Lorem ipsum dolor</h4>
@@ -145,7 +148,7 @@
           </div>
         </div>
 
-        <div class="card bg-info my-3 my-md-0 mx-sm-3">
+        <div class="card bg-info my-3 mx-sm-3">
           <img class="card-img-top" src="./assets/img/card3.jpg" alt="Title" />
           <div class="card-body text-white">
             <h4 class="card-title">Lorem ipsum dolor</h4>
@@ -156,7 +159,7 @@
           </div>
         </div>
 
-        <div class="card bg-info my-3 my-md-0 mx-sm-3">
+        <div class="card bg-info my-3 mx-sm-3">
           <img class="card-img-top" src="./assets/img/card4.jpg" alt="Title" />
           <div class="card-body text-white">
             <h4 class="card-title">Lorem ipsum dolor</h4>
@@ -170,8 +173,8 @@
       </div>
     </section>
 
-    <section id="contactoSection" class="container-fluid py-3 ">
-      <h2 class="text-center">Contacto</h2>
+    <section id="contactoSection" class="container-fluid my-3 py-3 ">
+      <h2 class="text-center my-3">Contacto</h2>
 
       <div class="text-center justify-content-center">
         <form action="#" class="mx-auto">
@@ -192,8 +195,9 @@
             <label for="formMensaje" class="text-black">Mensaje</label>
           </div>
 
-          <a name="" id="" class="btn btn-primary" href="#" role="button">Enviar</a>
-
+          <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="right"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="Envianos tus datos.">Enviar</button>
 
 
         </form>
@@ -203,7 +207,7 @@
 
   </main>
   <footer>
-    <div class="d-flex bg-info justify-content-between p-3">
+    <div class="d-flex bg-info justify-content-between mt-5 p-3">
       <h4>Viajes Chile</h4>
       <div class="d-inline">
         <i class="mx-3 fa-brands fa-2x fa-square-github"></i>

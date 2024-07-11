@@ -10,7 +10,7 @@
 
 body {
     background-color: rgb(0, 0, 0) !important;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 }
 
@@ -21,6 +21,12 @@ body {
 
 .navbar-brand {
     font-weight: 700;
+}
+
+.nav-link {
+    background-color: rgba(255, 255, 255, 0);
+    color: white !important;
+    border-radius: 50px;
 }
 
 .nav-link:hover {
@@ -40,6 +46,6 @@ body {
     object-fit: cover;
 }
 
-#contactoSection form{
+#contactoSection form {
     max-width: 800px;
 }
