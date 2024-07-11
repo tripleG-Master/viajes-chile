@@ -21,16 +21,18 @@ body {
 
 .navbar-brand {
     font-weight: 700;
+    text-shadow: 1px 1px 2px #aaa;
 }
 
 .nav-link {
     background-color: rgba(255, 255, 255, 0);
     color: white !important;
     border-radius: 50px;
+    text-shadow: 1px 1px 2px #aaa;
 }
 
 .nav-link:hover {
-    background-color: rgba(42, 42, 42, 0.204);
+    background-color: rgba(169, 167, 20, 0.54);
     color: white !important;
     border-radius: 50px;
 }
@@ -42,7 +44,7 @@ body {
 }
 
 #caruselHeroSection>div>div>img {
-    max-height: 60vh;
+    max-height: 300px;
     object-fit: cover;
 }
 
