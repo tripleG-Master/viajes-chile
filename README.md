@@ -2,8 +2,10 @@
 
 <h1 align="center"> PRUEBA EVALUADA VIAJES-CHILE </h>
 
-*[Tecnoligias usadas](#Tecnologias-usadas)
-
+[Tecnologias usadas](#Tecnologias-usadas)
+[Estilo](#Estilo)
+[Componentes](#Componentes)
+[Javascript y Jquery](#Javascript-y-Jquery)
 
 <hr>
 
