@@ -10,6 +10,8 @@
 
 ***
 
+# Click [Aqui](https://tripleg-master.github.io/viajes-chile/) para ver el sitio web
+ 
 ## Este sitio fue creado con la intencion de mostrar mi progreso dentro del bootcamp Ruby on Rails del programa Talento Digital para Chile.
 
 ### Tecnologias usadas
