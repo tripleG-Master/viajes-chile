@@ -29,6 +29,7 @@ body {
     border-radius: 50px;
 }
 
+
 .card-img-top {
     object-fit: cover;
     height: 150px;
@@ -37,4 +38,8 @@ body {
 #caruselHeroSection>div>div>img {
     max-height: 60vh;
     object-fit: cover;
+}
+
+#contactoSection form{
+    max-width: 800px;
 }
