@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <title>Viajes Chile</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- favicon -->
+    <link rel="icon" type="image/ico" href="./favicon.ico">
 
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,12 +26,18 @@
 </head>
 
 <body>
+
+  <!-- INICIO DE HEADER -->
   <header>
+    <!-- Navbar -->
     <nav id="navbarScrollSpy" class="navbar navbar-expand-sm fixed-top navbar-light">
       <div class="container">
-        <a class="navbar-brand text-white" href="#">
-          <h1>Viajes Chile</h1>
-        </a>
+        <div class="d-inline-flex align-items-center">
+          <img src="./assets/img/viajes.svg" alt="">
+          <a class="navbar-brand text-white" href="#">
+            <h2>Viajes Chile</h2>
+          </a>
+        </div>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
           data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -53,12 +62,13 @@
       </div>
     </nav>
   </header>
+  <!-- INICIO DE MAIN -->
   <main data-bs-spy="scroll" data-bs-target="#navbarScrollSpy" data-bs-root-margin="0px 0px -40%"
     data-bs-smooth-scroll="true" class="" tabindex="0">
 
+    <!-- Section Hero con carrusel -->
     <section id="heroSection" class="container-fluid p-0">
       <!-- CARRUSEL -->
-
       <div id="caruselHeroSection" class="carousel slide p-0" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -83,7 +93,7 @@
 
 
     </section>
-
+    <!-- Section de Quienes Somos -->
     <section id="quienesSomosSection" class="d-none d-lg-block text-center my-3 py-3">
 
       <h2 class="my-3">¿Quienes Somos?</h2>
@@ -122,7 +132,7 @@
       </div>
 
     </section>
-
+    <!-- Section de Destacados -->
     <section id="destacadosSection" class="my-3 py-3">
       <h2 class="text-center my-3">Destacados</h2>
       <div class="d-block d-lg-flex gap-1 justify-content-center my-2 px-lg-5">
@@ -173,7 +183,7 @@
 
       </div>
     </section>
-
+    <!-- Section de Contacto -->
     <section id="contactoSection" class="container-fluid my-3 py-3 ">
       <h2 class="text-center my-3">Contacto</h2>
       <div class="text-center justify-content-center">
@@ -202,7 +212,7 @@
       </div>
     </section>
 
-    <!-- Modal -->
+    <!-- Modal contacto-->
     <div class="modal fade" id="modalContacto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
       aria-labelledby="modalTitle" aria-hidden="true">
       <div class="modal-dialog">
@@ -223,22 +233,30 @@
     </div>
 
   </main>
-
+  <!-- INICIO DE FOOTER -->
   <footer>
     <div class="d-flex bg-info justify-content-between mt-5 p-3">
       <h4>Viajes Chile</h4>
-      <div class="d-inline">
-        <a href="https://github.com/tripleG-Master/viajes-chile" target="_blank"><i
-            class="mx-3 fa-brands fa-2x fa-square-github"></i></a>
-        <a href="https://www.linkedin.com" target="_blank"><i class="mx-3 fa-brands fa-2x fa-linkedin"></i></a>
-        <a href="https://www.x.com" target="_blank"><i class="mx-3 fa-brands fa-2x fa-square-twitter"></i></a>
-        <a href="https://www.facebook.com" target="_blank"><i class="mx-3 fa-brands fa-2x fa-square-facebook"></i></a>
+      <!-- Botones a RRSS y Github -->
+      <div class="d-inline-flex">
+        <a href="https://github.com/tripleG-Master/viajes-chile" class="mx-1 mx-md-3" target="_blank"><i
+            class="fa-brands fa-2x fa-square-github"></i></a>
+        <a href="https://www.linkedin.com" class="mx-1 mx-md-3" target="_blank"><i
+            class="fa-brands fa-2x fa-linkedin"></i></a>
+        <a href="https://www.x.com" class="mx-1 mx-md-3" target="_blank"><i
+            class="fa-brands fa-2x fa-square-twitter"></i></a>
+        <a href="https://www.facebook.com" class="mx-1 mx-md-3" target="_blank"><i
+            class="fa-brands fa-2x fa-square-facebook"></i></a>
       </div>
     </div>
   </footer>
 
   <!-- JS -->
   <script defer src="./assets/js/script.js"></script>
+
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
   <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -249,8 +267,6 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
 
-  <!-- jquery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </body>
 

@@ -19,6 +19,11 @@ body {
     font-weight: 500;
 }
 
+.navbar img {
+    height:30px;
+    object-fit: cover;
+}
+
 .navbar-brand {
     font-weight: 700;
     text-shadow: 1px 1px 2px #aaa;
@@ -52,6 +57,6 @@ body {
     max-width: 800px;
 }
 
-#contactoSection form textarea{
+#contactoSection form textarea {
     height: 150px;
 }
