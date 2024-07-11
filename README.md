@@ -1,4 +1,5 @@
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/tripleG-Master/viajes-chile/main/favicon.ico</span><span>)</span>
+[viajes-chile]
+(https://raw.githubusercontent.com/tripleG-Master/viajes-chile/main/favicon.ico)
 
 # PRUEBA EVALUADA VIAJES-CHILE
 
