@@ -17,7 +17,8 @@ body {
     background-color: rgba(255, 255, 255, 0) !important;
     font-weight: 500;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-weight: 700;
 }
 
@@ -27,11 +28,7 @@ body {
     border-radius: 50px;
 }
 
-
-#heroSection{
-height: 30vh;
-}
-
-#caruselHeroSection > div > div:nth-child(2) > img{
-    object-fit: contain;
+#caruselHeroSection>div>div>img {
+    max-height: 60vh;
+    object-fit: cover;
 }
