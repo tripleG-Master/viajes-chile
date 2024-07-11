@@ -1,6 +1,4 @@
-![viajes-chile](https://raw.githubusercontent.com/tripleG-Master/viajes-chile/main/favicon.ico<hr>)
-
-<hr>
+![viajes-chile](https://raw.githubusercontent.com/tripleG-Master/viajes-chile/main/favicon.ico)
 
 # PRUEBA EVALUADA VIAJES-CHILE
 
